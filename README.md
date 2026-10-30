@@ -82,13 +82,27 @@ Keep `--workpath` on the same drive as the project, and delete the `build\` fold
 
 ## Screenshots
 
-_Screenshots coming soon._
+All names and items below are made-up demo data.
 
-<!--
-![Main window](docs/main.png)
-![History (Riwayat)](docs/riwayat.png)
-![Printed report with watermark](docs/print.png)
--->
+**Main window**: the report being filled in, approved by "Budi Contoh".
+
+![Main window](docs/screenshots/main.png)
+
+**Printed report**: the saved xlsx as it prints (A4 landscape) with the repeated "NamaToko" watermark.
+
+![Printed report with watermark](docs/screenshots/printed-report.png)
+
+**History (Riwayat)**: one row per printout, searchable by item and date range.
+
+![History, list of printouts](docs/screenshots/riwayat.png)
+
+**History, total per item**: the same period summed per item.
+
+![History, total per item](docs/screenshots/riwayat-totals.png)
+
+**Settings (gear window)**: approvers and passwords; passwords are stored as hashes and never shown.
+
+![Settings window](docs/screenshots/settings.png)
 
 ## License
 
