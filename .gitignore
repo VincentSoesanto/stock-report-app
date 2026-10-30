@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# PyInstaller
+build/
+dist/
+*.spec
+*.exe
+
+# App data created at runtime (settings, history, saved reports, old approver list)
+laporan.db
+laporan.db.*
+*.db
+laporan_config.json
+password_disetujui.txt
+Laporan/
+
+# Excel lock files and editor folders
+~$*
+.vscode/
+.idea/
